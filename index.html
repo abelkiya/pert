@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Alex Morgan is a software developer and data analyst creating thoughtful digital products and turning data into clear decisions."
+    />
+    <meta name="theme-color" content="#10120f" />
+    <title>Alex Morgan — Software Developer &amp; Data Analyst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="#home" aria-label="Alex Morgan home">
+          <span class="brand-mark">AB<span>.</span></span>
+          <span class="brand-name">Abel Girma</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span><span></span>
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#services">Services</a>
+          <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero section-wrap" id="home">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR SELECT PROJECTS</p>
+            <h1>I build for the<br /> <span class="serif-word">curious</span> <span class="outline-word">mind.</span></h1>
+            <p class="hero-intro">
+              Software developer <span class="accent">&amp;</span> data analyst turning complex
+              problems into clear, useful digital experiences.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+              <a class="text-link" href="#contact">Have a project in mind? <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="hero-meta">
+              <span>BASED IN LONDON, UK</span>
+              <span class="meta-line"></span>
+              <span>WORKING WORLDWIDE</span>
+            </div>
+          </div>
+
+          <div class="hero-art" aria-label="Illustration of a data dashboard and code editor">
+            <div class="art-orbit orbit-one"></div>
+            <div class="art-orbit orbit-two"></div>
+            <div class="hero-spark spark-one">✳</div>
+            <div class="hero-spark spark-two">+</div>
+            <div class="dashboard-card tilt-card">
+              <div class="card-topline">
+                <span class="window-dots"><i></i><i></i><i></i></span>
+                <span>OVERVIEW / 2025</span>
+                <span class="card-menu">···</span>
+              </div>
+              <div class="metric-heading">Your data, in focus.</div>
+              <div class="metric-row">
+                <div>
+                  <span class="metric-label">TOTAL REVENUE</span>
+                  <strong>$84,254<span>.00</span></strong>
+                </div>
+                <span class="growth-pill">↗ 12.8%</span>
+              </div>
+              <div class="chart">
+                <div class="chart-y-labels"><span>80k</span><span>60k</span><span>40k</span><span>20k</span></div>
+                <svg viewBox="0 0 360 142" role="img" aria-label="An upward trend chart">
+                  <defs>
+                    <linearGradient id="chartFill" x1="0" x2="0" y1="0" y2="1">
+                      <stop offset="0%" stop-color="#b9f96c" stop-opacity=".2" />
+                      <stop offset="100%" stop-color="#b9f96c" stop-opacity="0" />
+                    </linearGradient>
+                  </defs>
+                  <path class="chart-grid" d="M0 16H360 M0 52H360 M0 88H360 M0 124H360" />
+                  <path class="chart-area" d="M0 108 C24 102 29 85 57 91 S93 109 118 78 S159 69 178 76 S218 60 240 49 S277 62 296 38 S334 30 360 14 L360 142H0Z" />
+                  <path class="chart-line" d="M0 108 C24 102 29 85 57 91 S93 109 118 78 S159 69 178 76 S218 60 240 49 S277 62 296 38 S334 30 360 14" />
+                  <circle cx="296" cy="38" r="4" />
+                </svg>
+                <div class="chart-x-labels"><span>JAN</span><span>MAR</span><span>MAY</span><span>JUL</span><span>SEP</span><span>NOV</span></div>
+              </div>
+              <div class="card-footer"><span><i class="legend-dot"></i> This year</span><span>Last updated just now</span></div>
+            </div>
+            <div class="floating-note note-code tilt-card">
+              <span class="note-icon">{ }</span>
+              <span><b>Clean code.</b><small>Thoughtful by design.</small></span>
+              <span class="note-check">✓</span>
+            </div>
+            <div class="floating-note note-data tilt-card">
+              <span class="data-bars"><i></i><i></i><i></i><i></i><i></i></span>
+              <span><small>INSIGHT FOUND</small><b>Clarity creates momentum.</b></span>
+            </div>
+            <span class="art-caption">A little logic. A lot of intention.</span>
+          </div>
+          <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+        </section>
+
+        <section class="intro-strip" aria-label="Introduction">
+          <div class="section-wrap strip-inner">
+            <span class="strip-label">A PRACTICAL CREATIVE</span>
+            <p>Bridging <span>technology</span> and <span>insight</span> to make the complicated feel simple.</p>
+            <span class="strip-star" aria-hidden="true">✳</span>
+          </div>
+        </section>
+
+        <section class="about section-wrap section-pad" id="about">
+          <div class="section-kicker reveal"><span>01 / ABOUT ME</span><span class="kicker-rule"></span><span>THE PERSON BEHIND THE PIXELS</span></div>
+          <div class="about-grid">
+            <div class="about-title reveal">
+              <h2>Equal parts<br /><span class="serif-word">builder</span> &amp;<br />big-picture<br />thinker.</h2>
+              <div class="about-stamp" aria-hidden="true"><span>MADE WITH<br />INTENTION</span><b>✳</b></div>
+            </div>
+            <div class="about-body reveal">
+              <p class="lead">Hey, I’m Alex — a developer with a soft spot for good questions and beautifully useful answers.</p>
+              <p>I work across software and data, bringing thoughtful engineering together with analytical thinking. From shaping a product idea into a polished interface to finding the signal in a sea of numbers, I care about making every detail earn its place.</p>
+              <p>Good work should feel intuitive, work reliably, and leave things a little better than it found them. That’s the standard I bring to every project.</p>
+              <a class="text-link about-link" href="#contact">A bit more about working together <span aria-hidden="true">↗</span></a>
+              <div class="skills-row">
+                <div><span class="skill-number">01</span><b>Thoughtful<br />engineering</b></div>
+                <div><span class="skill-number">02</span><b>Insightful<br />analysis</b></div>
+                <div><span class="skill-number">03</span><b>Human-first<br />experiences</b></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="work section-pad" id="work">
+          <div class="section-wrap">
+            <div class="section-kicker reveal"><span>02 / SELECTED WORK</span><span class="kicker-rule"></span><span>RECENT PROJECTS</span></div>
+            <div class="section-heading reveal">
+              <h2>Made to make<br /><span class="serif-word">a difference.</span></h2>
+              <p>A few ways I’ve helped good ideas become thoughtful products, clearer insights, and happier users.</p>
+            </div>
+            <div class="project-grid">
+              <article class="project-card project-large reveal tilt-card">
+                <div class="project-visual visual-dashboard">
+                  <div class="mini-window">
+                    <div class="mini-window-top"><span></span><span></span><span></span><b>pulse / analytics</b></div>
+                    <div class="mini-dashboard">
+                      <div class="mini-sidebar"><b>pulse.</b><i></i><i></i><i></i><i></i></div>
+                      <div class="mini-content">
+                        <div class="mini-title"><b>Good morning, Taylor</b><span>Last 30 days⌄</span></div>
+                        <div class="mini-stats"><i><small>ACTIVE USERS</small><b>24,891</b><em>↗ 18%</em></i><i><small>CONVERSION</small><b>4.82%</b><em>↗ 2.4%</em></i><i><small>AVG. SESSION</small><b>6m 42s</b><em>↗ 8.1%</em></i></div>
+                        <div class="mini-chart"><span>Engagement over time</span><svg viewBox="0 0 390 100" aria-hidden="true"><path d="M0 77 C30 70 42 79 72 56 S113 76 147 40 S188 53 220 35 S254 53 285 25 S325 46 348 22 S374 29 390 8" /></svg></div>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="visual-index">01 — PRODUCT ANALYTICS</span>
+                </div>
+                <div class="project-info"><div><h3>Pulse Analytics</h3><p>Making product metrics feel human, actionable, and a little less intimidating.</p></div><a href="#contact" aria-label="Ask about Pulse Analytics" class="project-link">↗</a></div>
+                <div class="project-tags"><span>PRODUCT DESIGN</span><span>FRONT-END</span><span>DATA VISUALIZATION</span></div>
+              </article>
+              <article class="project-card reveal tilt-card">
+                <div class="project-visual visual-commerce">
+                  <div class="commerce-card"><span class="commerce-kicker">GOOD THINGS, GROWN SLOWLY</span><b>Less, but<br /><i>better.</i></b><span class="commerce-cta">EXPLORE THE COLLECTION ↗</span><div class="commerce-orb"></div></div>
+                  <span class="visual-index">02 — DIGITAL COMMERCE</span>
+                </div>
+                <div class="project-info"><div><h3>Goodkind Studio</h3><p>A calm, considered storefront for everyday essentials.</p></div><a href="#contact" aria-label="Ask about Goodkind Studio" class="project-link">↗</a></div>
+                <div class="project-tags"><span>WEB DEVELOPMENT</span><span>ECOMMERCE</span></div>
+              </article>
+              <article class="project-card reveal tilt-card">
+                <div class="project-visual visual-insights">
+                  <div class="insight-card"><span>THE SIGNAL REPORT / 2025</span><b>Where growth<br />really happens.</b><div class="insight-graph"><i style="height:25%"></i><i style="height:38%"></i><i style="height:32%"></i><i style="height:54%"></i><i style="height:48%"></i><i style="height:70%"></i><i style="height:63%"></i><i style="height:91%"></i></div><small>REVENUE GROWTH <strong>+32.4%</strong></small></div>
+                  <span class="visual-index">03 — DATA STORYTELLING</span>
+                </div>
+                <div class="project-info"><div><h3>Signal &amp; Story</h3><p>Turning a tangle of business data into confident decisions.</p></div><a href="#contact" aria-label="Ask about Signal and Story" class="project-link">↗</a></div>
+                <div class="project-tags"><span>DATA ANALYSIS</span><span>PYTHON</span><span>REPORTING</span></div>
+              </article>
+            </div>
+            <p class="work-note">The projects above are representative concepts. <a href="#contact">Let’s make your next one real ↗</a></p>
+          </div>
+        </section>
+
+        <section class="services section-wrap section-pad" id="services">
+          <div class="section-kicker reveal"><span>03 / WHAT I DO</span><span class="kicker-rule"></span><span>GOOD THINKING, GOOD DOING</span></div>
+          <div class="services-grid">
+            <div class="services-intro reveal">
+              <h2>From the first<br />question to the<br /><span class="serif-word">finished thing.</span></h2>
+              <p>Bring me a blank page, a knotty problem, or a promising idea. I’ll help you find the next right step.</p>
+              <a class="button button-outline" href="#contact">Tell me what you need <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="service-list">
+              <article class="service-item reveal">
+                <span class="service-no">01</span><div><h3>Software development</h3><p>Fast, accessible, carefully-crafted web experiences built to work beautifully on every screen.</p><div class="service-tags"><span>FRONT-END</span><span>WEB APPS</span><span>RESPONSIVE UI</span></div></div><span class="service-arrow">↗</span>
+              </article>
+              <article class="service-item reveal">
+                <span class="service-no">02</span><div><h3>Data analysis</h3><p>Practical analysis that cuts through the noise and turns your data into decisions you can act on.</p><div class="service-tags"><span>EXPLORATION</span><span>VISUALIZATION</span><span>REPORTING</span></div></div><span class="service-arrow">↗</span>
+              </article>
+              <article class="service-item reveal">
+                <span class="service-no">03</span><div><h3>Digital product thinking</h3><p>Clearer journeys and better product experiences, grounded in how people actually use them.</p><div class="service-tags"><span>PRODUCT STRATEGY</span><span>UX THINKING</span><span>PROTOTYPING</span></div></div><span class="service-arrow">↗</span>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact" id="contact">
+          <div class="contact-top section-wrap">
+            <div class="section-kicker reveal"><span>04 / YOUR TURN</span><span class="kicker-rule"></span><span>LET’S MAKE SOMETHING GOOD</span></div>
+            <div class="contact-grid">
+              <div class="contact-copy reveal">
+                <p class="eyebrow"><span class="status-dot"></span> OPEN TO NEW PROJECTS</p>
+                <h2>Have a good<br /><span class="serif-word">question?</span></h2>
+                <p>Tell me what you’re thinking about. I’ll bring curiosity, a clear head, and a fresh pot of coffee.</p>
+                <a class="contact-email" href="mailto:hello@alexmorgan.dev">hello@alexmorgan.dev <span aria-hidden="true">↗</span></a>
+              </div>
+              <form class="contact-form reveal" id="contact-form">
+                <label for="name">YOUR NAME</label>
+                <input id="name" name="name" type="text" placeholder="How should I address you?" required />
+                <label for="email">YOUR EMAIL</label>
+                <input id="email" name="email" type="email" placeholder="you@somewhere.com" required />
+                <label for="message">WHAT’S ON YOUR MIND?</label>
+                <textarea id="message" name="message" rows="3" placeholder="A little about your project, idea, or question..." required></textarea>
+                <button class="button button-primary form-submit" type="submit">Send an email <span aria-hidden="true">↗</span></button>
+                <p class="form-note">Your email app will open with your message ready to send.</p>
+              </form>
+            </div>
+          </div>
+          <footer class="site-footer section-wrap">
+            <a class="brand footer-brand" href="#home"><span class="brand-mark">am<span>.</span></span><span class="brand-name">Alex Morgan</span></a>
+            <p>MADE WITH CURIOSITY <span>✳</span> AND A LITTLE BIT OF COFFEE</p>
+            <a href="#home" class="back-top">BACK TO TOP ↑</a>
+            <span class="copyright">© <span id="year">2025</span> ALEX MORGAN</span>
+          </footer>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
